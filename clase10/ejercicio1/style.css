@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, goldenrod, crimson);
+}
+
+.menu-container {
+    margin: 0 auto;
+    height: 150px;
+    width: 200px;
+    transform: translate(2em, 10em);
+}
+
+#menu-top, #menu-mid, #menu-bottom {
+    width: 80%;
+    height: 15px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+
+.menu-container:hover #menu-top {
+    rotate: -45deg;
+    width: 100%;
+    transform: translate(-45px, 45px);
+    transition: 1s;
+}
+
+.menu-container:hover #menu-mid {
+    rotate: 45deg;
+    width: 100%;
+    transition: 1s;
+
+}
+
+.menu-container:hover #menu-bottom {
+    display: none;
+}
+
+
+
+

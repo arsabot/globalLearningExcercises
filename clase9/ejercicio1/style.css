@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif; 
+    background: linear-gradient(to right, goldenrod, crimson);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+h1::before {
+    content: '🔎';
+}
+
+
+h1 {
+    text-transform: capitalize;
+    font-size: 100px;
+    letter-spacing: 8px;
+}
+
+p {
+    font-size: 75px;
+    padding-left: 40px;
+    letter-spacing: 7px;
+}
+
+form {
+    font-size: 75px;
+
+}
+
+#search {
+    font-size: 50px;
+    height: 110px;
+    padding-left: 60px;
+}
+
+button {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 10px;
+    border-radius: 80px;
+    height: 130px;
+    background-color: goldenrod;
+
+
+}
